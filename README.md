@@ -1,5 +1,5 @@
 # Payroll Process System
-The service of employees' net wage calculation and payment (test app for RealForce).
+The service of employees' net wage calculation and payment ([test task](public/task.pdf) for RealForce).
 
 ## Requirements
 `docker`, `docker-compose`, `composer`, `php ^7.1`
@@ -23,9 +23,11 @@ Executing the command, which pays calculated net salaries to all employees with 
 ```bash
 bin/console process:payroll
 ```
+Command output part example snapshot:
+![snapshot](public/snap.png)
 
 ## Test the application
-Run test with `Alice/Bob/Charlie` situation from the `task`
+Run test with `Alice/Bob/Charlie` situation from the [task](public/task.pdf)
 ```bash
 bin/phpunit
 ```
